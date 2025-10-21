@@ -6,9 +6,6 @@
 
 
 
-
- 
-
 ### Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ### Components required: 8086  emulator 
 ### Theory 
@@ -148,105 +145,9 @@ HLT
 ![WhatsApp Image 2025-09-02 at 22 43 56_97700821](https://github.com/user-attachments/assets/5c0f59b9-2ed3-4718-810d-259cedc965fe)
 
 
-### Programs for Logical operations:
-
-![WhatsApp Image 2025-09-02 at 23 18 18_f948f0c1](https://github.com/user-attachments/assets/b643e873-dc20-4321-b298-207b8a2d39b0)
-
-### AND Gate:
-```
- MOV AX,[3001H]
-MOV BX,[3003H]
-AND AX,BX
-MOV [3005H],AX
-HLT
-```
-### Output:
-![WhatsApp Image 2025-09-02 at 22 54 03_9bb981f7](https://github.com/user-attachments/assets/d89c74cd-9699-4c26-b19a-1439a75bb983)
-
-### NAND Gate:
-```
- MOV AX,[3001H]
-MOV BX,[3003H]
-AND AX,BX
-NOT AX
-MOV [3005H],AX
-HLT
-```
-
-### Output:
-![WhatsApp Image 2025-09-02 at 22 49 20_20bc94b2](https://github.com/user-attachments/assets/3df2f86a-5cb4-4c93-a219-33ddfaaf01f3)
-
-### OR Gate:
-
-```
- MOV AX,[3001H]
-MOV BX,[3003H]
-OR AX,BX
-MOV [3005H],AX
-HLT
-```
-### Output:
-![WhatsApp Image 2025-09-02 at 22 51 03_2efaee12](https://github.com/user-attachments/assets/9b713b54-b1cf-4fd8-a38b-4609c2a32ec1)
-
-### NOR Gate:
-
-```
- MOV AX,[3001H]
-MOV BX,[3003H]
-OR AX,BX
-NOT AX
-MOV [3005H],AX
-HLT
-```
-### Output:
-![WhatsApp Image 2025-09-02 at 22 53 28_5c85eadf](https://github.com/user-attachments/assets/44888297-76cf-42f8-8a18-c28763f9578f)
-
-### NOT Gate:
-
-```
- MOV AX,[3001H]
-NOT AX
-MOV [3003H],AX
-HLT
-```
-
-### Output:
-![WhatsApp Image 2025-09-02 at 22 55 44_31745790](https://github.com/user-attachments/assets/cbdff838-2f37-41e1-8988-5a6ff9854799)
-
-
-### XOR Gate:
-```
- MOV AX,[3001H]
-MOV BX,[3003H]
-XOR AX,BX
-MOV [3005H],AX
-HLT
-```
-### Output:
-![WhatsApp Image 2025-09-02 at 22 57 33_d8b00362](https://github.com/user-attachments/assets/a1ce8505-83b2-45b4-b917-477d42ab2507)
-
-### XNOR Gate:
-
-```
-MOV AX,[3001H]
-MOV BX,[3003H]
-XOR AX,BX
-NOT AX
-MOV [3005H],AX
-HLT
-```
-
-### Output:
-![WhatsApp Image 2025-09-02 at 22 59 13_957d62fe](https://github.com/user-attachments/assets/1d7794b2-509b-45c4-9982-f5780f8101e4)
-
 ### Result :
 The Write and execute ALP on fundamental arithmetic and logical operations is executed
 successfully.
-
-
-
-
-
 
 
 
